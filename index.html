@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Keyla Arissa Faadiya | Portofolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="blobs" aria-hidden="true"><i></i><i></i><i></i></div>
+
+<header class="nav">
+  <a class="logo" href="#home">keyla ✦</a>
+  <nav>
+    <a href="#about">Tentang</a><a href="#visi">Visi &amp; Misi</a><a href="#skills">Skill</a>
+    <a href="#projects">Proyek</a><a href="#journey">Perjalanan</a><a href="#contact">Kontak</a>
+  </nav>
+  <button id="follow" class="btn mini" aria-pressed="false">Avtr ikt krsr: mati</button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-text">
+    <span class="tag">Terbuka untuk kolaborasi</span>
+    <h1>Hai, aku <mark>Keyla Arissa Faadiya</mark></h1>
+    <p class="role">Aku seorang <b id="typed"></b><span class="caret">|</span></p>
+    <p>Aku membangun aplikasi dan website yang rapi di dalam, manis di luar. Bagiku, software terbaik adalah yang membuat orang merasa tenang saat memakainya.</p>
+    <div class="btns">
+      <a class="btn pink" href="#projects">Lihat proyek</a>
+      <a class="btn blue" href="#contact">Ajak ngobrol</a>
+    </div>
+  </div>
+  <div class="hero-card">
+    <!-- Ganti .me dengan <img src="foto.jpg" alt="Keyla"> jika ingin memakai foto -->
+    <div class="me"><span>KF</span></div>
+    <b class="stk s1">&lt;/&gt;</b><b class="stk s2">✦</b><b class="stk s3">♡</b><b class="stk s4">{ }</b>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div>
+  <span>Software Developer ✦ UI/UX ✦ Flutter ✦ Web ✦ Open Source ✦ Clean Code ✦ </span>
+  <span>Software Developer ✦ UI/UX ✦ Flutter ✦ Web ✦ Open Source ✦ Clean Code ✦ </span>
+</div></div>
+
+<section id="about" class="sec">
+  <h2 class="title t1">Tentang aku</h2>
+  <div class="grid two">
+    <article class="card rv">
+      <p>Aku pelajar teknik jaringan komputer yang jatuh cinta pada dunia software sejak pertama kali membuat halaman web dengan tag &lt;marquee&gt;. Sekarang aku fokus pada pengembangan aplikasi mobile dan web dengan antarmuka yang ramah.</p>
+      <p>Aku percaya teknologi paling berguna ketika mudah dipahami. Karena itu aku suka menggabungkan logika kode yang kuat dengan desain yang hangat dan ekspresif.</p>
+    </article>
+    <div class="stats rv">
+      <div class="card c-pink"><strong data-count="12">0</strong><span>proyek selesai</span></div>
+      <div class="card c-blue"><strong data-count="3">0</strong><span>tahun belajar coding</span></div>
+      <div class="card c-mint"><strong data-count="5">0</strong><span>sertifikat teknologi</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="visi" class="sec">
+  <h2 class="title t2">Visi &amp; Misi</h2>
+  <div class="grid two">
+    <article class="card c-lav rv">
+      <h3>Visi</h3>
+      <p>Menjadi software engineer yang menciptakan teknologi inklusif, aman, dan menyenangkan, sehingga siapa pun bisa merasakan manfaat dunia digital tanpa merasa tertinggal.</p>
+    </article>
+    <article class="card c-peach rv">
+      <h3>Misi</h3>
+      <ul>
+        <li>Membangun software yang bersih, teruji, dan mudah dirawat.</li>
+        <li>Mendesain antarmuka yang ramah untuk semua kalangan pengguna.</li>
+        <li>Terus belajar teknologi baru: cloud, AI, dan keamanan aplikasi.</li>
+        <li>Berbagi ilmu lewat open source dan komunitas perempuan di bidang teknologi.</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section id="skills" class="sec">
+  <h2 class="title t3">Skill</h2>
+  <div class="card rv skills">
+    <div class="sk"><label>HTML, CSS &amp; JavaScript</label><div class="track"><div class="bar" data-w="92"></div></div></div>
+    <div class="sk"><label>Flutter &amp; Dart</label><div class="track"><div class="bar" data-w="80"></div></div></div>
+    <div class="sk"><label>Python &amp; Node.js</label><div class="track"><div class="bar" data-w="76"></div></div></div>
+    <div class="sk"><label>UI/UX dengan Figma</label><div class="track"><div class="bar" data-w="86"></div></div></div>
+    <div class="sk"><label>Git, Firebase &amp; Cloud</label><div class="track"><div class="bar" data-w="70"></div></div></div>
+    <div class="chips"><span>React</span><span>SQL</span><span>REST API</span><span>Testing</span><span>Agile</span><span>Linux</span></div>
+  </div>
+</section>
+
+<section id="projects" class="sec">
+  <h2 class="title t4">Proyek pilihan</h2>
+  <div class="grid three">
+    <article class="card rv c-pink proj"><div class="thumb">☁︎</div><h3>Moodi</h3><p>Aplikasi jurnal suasana hati dengan grafik mingguan dan pengingat lembut. Dibuat dengan Flutter dan Firebase.</p><div class="chips"><span>Flutter</span><span>Firebase</span></div><a class="btn mini" href="#">Lihat kode</a></article>
+    <article class="card rv c-blue proj"><div class="thumb">✎</div><h3>StudyBuddy</h3><p>Web belajar kolaboratif dengan ruang diskusi real-time dan papan target belajar untuk mahasiswa.</p><div class="chips"><span>React</span><span>Node.js</span></div><a class="btn mini" href="#">Lihat kode</a></article>
+    <article class="card rv c-mint proj"><div class="thumb">❀</div><h3>Bloom API</h3><p>REST API untuk toko bunga lokal: katalog, pesanan, dan notifikasi, lengkap dengan dokumentasi interaktif.</p><div class="chips"><span>Python</span><span>SQL</span></div><a class="btn mini" href="#">Lihat kode</a></article>
+  </div>
+</section>
+
+<section id="journey" class="sec">
+  <h2 class="title t1">Perjalanan</h2>
+  <div class="timeline">
+    <article class="card rv"><b>2024 sampai sekarang</b><h3>pelajar dari teknik komputer jaringan</h3><p>Fokus pada rekayasa perangkat lunak, basis data, dan interaksi manusia dengan komputer.</p></article>
+    <article class="card rv c-lav"><b>2025</b><h3>Software Engineer Intern, Studio Awan</h3><p>Membangun fitur aplikasi mobile dan merapikan alur pengujian otomatis.</p></article>
+    <article class="card rv c-peach"><b>2025</b><h3>membuat website tersendiri</h3><p>Merancang dan membuat game serta sofware yang lucu.</p></article>
+  </div>
+</section>
+
+<section id="contact" class="sec">
+  <h2 class="title t2">Kontak</h2>
+  <div class="grid two">
+    <form id="form" class="card c-blue rv">
+      <label>Nama<input required name="nama" placeholder="Nama kamu"></label>
+      <label>Email<input required type="email" name="email" placeholder="kamu@email.com"></label>
+      <label>Pesan<textarea required rows="4" name="pesan" placeholder="Ceritakan idemu..."></textarea></label>
+      <button class="btn pink" type="submit">Kirim pesan</button>
+    </form>
+    <div class="card c-pink rv links">
+      <h3>Temukan aku di</h3>
+      <a class="btn" href="mailto:keyla.risafadia@email.com">keyla.risafadia@email.com</a>
+      <a class="btn" href="https://github.com/keylakodok/" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="https://instagram.com/kylasfdy_/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 Keyla Arissa Faadiya. Dibuat dengan kode, kopi, dan banyak warna pastel.</footer>
+<div id="toast" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>
